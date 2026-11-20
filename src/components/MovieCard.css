@@ -1,0 +1,27 @@
+.movie-card {
+  list-style: none;
+  transition: transform 0.2s;
+}
+
+.movie-card:hover {
+  transform: scale(1.04);
+}
+
+.link-no-underline {
+  text-decoration: none;
+  color: inherit;
+}
+
+.movie-img {
+  width: 100%;
+  aspect-ratio: 2 / 3;
+  object-fit: cover;
+  border-radius: 10px;
+  display: block;
+}
+
+.movie-title {
+  font-size: 1rem;
+  margin: 8px 0 0;
+  text-align: center;
+}
