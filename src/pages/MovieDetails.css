@@ -1,0 +1,57 @@
+.detailsPage {
+  padding: 24px;
+}
+
+.backButton {
+  display: inline-block;
+  margin-bottom: 20px;
+  padding: 8px 16px;
+  border-radius: 8px;
+  text-decoration: none;
+  background-color: #e50914;
+  color: white;
+  font-weight: bold;
+}
+
+.backButton:hover {
+  opacity: 0.85;
+}
+
+.detailsContainer {
+  display: flex;
+  gap: 32px;
+  align-items: flex-start;
+}
+
+.movieImage {
+  width: 320px;
+  max-width: 100%;
+  border-radius: 12px;
+}
+
+.movieDetails {
+  flex: 1;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.movieDetails h2 {
+  margin-top: 0;
+  font-size: 2rem;
+}
+
+.detailsMessage {
+  padding: 24px;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .detailsContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .movieDetails {
+    text-align: center;
+  }
+}
