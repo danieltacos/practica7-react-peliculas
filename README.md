@@ -89,8 +89,8 @@ La API key se guarda en una variable de entorno (`VITE_TMDB_API_KEY`) y no se su
 - El pie de página muestra los datos del estudiante, el profesor, la materia y la institución.
 
 ## Enlaces
-- **Repositorio:** https://github.com/TU_USUARIO/practica7-react-peliculas
-- **Despliegue en Netlify:** _pendiente_
+- **Repositorio:** https://github.com/danieltacos/practica7-react-peliculas.git
+- **Despliegue en Netlify:** https://appdepeliculasconreact.netlify.app/
 
 ## Conclusiones
 Con esta práctica aprendí a crear un proyecto con React y Vite y a organizarlo en componentes, páginas, servicios y utilidades. Usé los hooks `useState`, `useEffect` y `useParams` para manejar el estado, consumir una API externa y leer parámetros de la URL. Con React Router configuré la navegación entre el listado y el detalle sin recargar la página. También practiqué el uso de variables de entorno para proteger la API key, el flujo de trabajo con Git y GitHub mediante commits que reflejan el avance, y el despliegue de una SPA en Netlify, incluida la configuración de `_redirects` para que las rutas funcionen en producción.
